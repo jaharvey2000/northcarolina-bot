@@ -1,6 +1,6 @@
-# Discord Wikipedia Nickname Setter
+# North Carolina Mention Bot
 
-## A bot to give yourself random discord usernames based on Wikipedia articles :)
+## A bot that tells you when you mention North Carolina
 
 This is a silly project that I'm doing for a bit. It's not meant to be serious.
 
@@ -12,10 +12,10 @@ pip install -r requirements.txt
 
 Generate and set a discord token.
 
-Set the USER\_AGENT environment variable to your email (please follow Wikipedia's API guidelines! They're not strict.)
+Set the IMAGE\_URL environment variable to wherever your copy of `nc_mentioned.png` is.
 
 Profit.
 
-### Bot Usage
+### Usage
 
-`/nameme`: Query Wikipedia's API for a random page, then set your discord username as that page's title.
+Say the words "north carolina", case insensitive.
